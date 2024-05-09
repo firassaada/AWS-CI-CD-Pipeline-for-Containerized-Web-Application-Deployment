@@ -13,7 +13,7 @@ phases:
       - aws --version
       - echo $AWS_DEFAULT_REGION
       - REPOSITORY_URI=730335578247.dkr.ecr.us-east-1.amazonaws.com/aws-ecs-docker
-      - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
+      - $(aws ecr get-login-password --no-include-email --region $AWS_DEFAULT_REGION)
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=${COMMIT_HASH:=latest}
   build:
