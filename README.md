@@ -1,6 +1,8 @@
 # AWS CI/CD Pipeline for Containerized Web Application Deployment
 ## Overview:
 
+![image](https://github.com/firassaada/AWS-CI-CD-Pipeline-for-Containerized-Web-Application-Deployment/assets/94303698/f0020ca8-8695-4481-89ff-6a8ec9aeddfa)
+
 This project demonstrates the implementation of a CI/CD pipeline to automate the deployment process of a containerized web application on AWS. The pipeline leverages various AWS services including CodePipeline, CodeBuild, ECS, and CloudFormation for infrastructure provisioning.
 ## Components:
 
