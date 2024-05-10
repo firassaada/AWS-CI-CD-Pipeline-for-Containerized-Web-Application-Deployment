@@ -71,7 +71,7 @@ Review and Create Pipeline:
   Click on "Create pipeline" to create the pipeline.
   The pipeline will now be created, and the initial run will be triggered automatically if you have any commits in the selected branch.
 
-![image](https://github.com/firassaada/AWS-CI-CD-Pipeline-for-Containerized-Web-Application-Deployment/assets/94303698/51d57e03-e7a2-4997-bd34-1cd9b8090d0d)
+![image](https://github.com/firassaada/AWS-CI-CD-Pipeline-for-Containerized-Web-Application-Deployment/assets/94303698/96de92a1-f429-4e51-947b-ca4c4582bb9b)
 
 ## Contributing:
 
